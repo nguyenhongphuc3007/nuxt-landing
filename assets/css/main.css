@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+    /* Adjust the path as per your file structure */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+    /* Adjust the path as per your file structure */
+}
+
+* {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit (Chrome, Safari, Edge, Opera) */
+  }
+
+  input::placeholder {
+    
+    opacity: 0.5;
+    color: gray !important;
+  }
+  .ant-input::placeholder {
+    color: gray !important; /* Change the color to your desired color */
+  }
+  .ant-dropdown-menu-title-content{
+    display: flex;
+  }
