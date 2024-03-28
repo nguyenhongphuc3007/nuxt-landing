@@ -1,6 +1,6 @@
 <template>
   <footer class="footer text-white">
-    <a-row class="py-10">
+    <a-row class="py-10 xs:px-4">
       <a-col :xs="24" :sm="24" :md="9" :lg="9" class="justify-center">
         <div class="footter--company flex justify-center">
           <img src="~/assets/img/logo.svg" alt="" srcset="" />
@@ -42,7 +42,7 @@
         </div>
       </a-col>
       <a-col :xs="24" :sm="24" :md="9" :lg="9">
-        <div class="footer--subscribe w-2/3">
+        <div class="footer--subscribe md:w-2/3 xs:w-full lg:w-2/3">
           <h1 class="text-2xl font-bold capitalize">{{ $t("Subscribe") }}</h1>
           <p class="py-3">
             {{

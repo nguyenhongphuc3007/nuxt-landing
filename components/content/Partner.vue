@@ -1,5 +1,5 @@
 <template>
-  <div style="background-color: #f6f6f6" class="py-10">
+  <div style="background-color: #f6f6f6" class="py-10 lg:mt-10 lg:py-32">
     <h1 class="capitalize text-6xl text-black font-black text-center">{{$t('our partners')}}</h1>
     <Carousel class="pt-10" v-bind="settings" :breakpoints="breakpoints">
       <Slide v-for="image in images" :key="image.id">

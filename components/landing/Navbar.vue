@@ -32,6 +32,43 @@ function handleLang(e: any) {
   console.log(lang)
   locale.value = e
 };
+function scrollTo(title:string) {
+  console.log('title')
+  switch (title) {
+    case 'about us':
+      
+      const element = document.getElementById('aboutus');
+            window.scrollTo({
+        top: element.offsetTop, // Scrolls to the top of the element
+        behavior: 'smooth'
+      });
+      break;
+    case 'games':
+      
+      const games = document.getElementById('games');
+            window.scrollTo({
+        top: games.offsetTop, // Scrolls to the top of the element
+        behavior: 'smooth'
+      });
+      break;
+    case 'partners':
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+      });
+      break;
+    case 'contact us':
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+      });
+      break;
+  
+    default:
+      break;
+  }
+  
+}
 </script>
 
 <template>
@@ -55,8 +92,8 @@ function handleLang(e: any) {
           <ul class="flex flex-col lg:flex-row lg:gap-3">
             <li v-for="item of menuitems">
               <a
-                :href="item.path"
                 class="flex font-bold lg:px-6 py-2 text-white hover:text-gray-900 uppercase"
+                @click="scrollTo(item.title)"
               >
                 {{ $t(item.title) }}
               </a>
@@ -99,7 +136,7 @@ function handleLang(e: any) {
             <img class="p-2 m-auto" src="~/assets/img/time.png" alt="" />
           </div>
         </div>
-        <div class="content__subscribe md:w-2/5 xs:w-5/6 m-auto xs:py-2 md:py-10 xl:pb-80">
+        <div class="content__subscribe xl:w-1/3 md:w-2/5 xs:w-5/6 lg:w-2/5 m-auto xs:py-2 md:py-10 xl:pb-80">
           <p class="text-white text-lg text-center m-auto">
             {{
               $t(

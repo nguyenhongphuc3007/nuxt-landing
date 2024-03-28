@@ -27,7 +27,7 @@ const col4 = [
 </script>
 
 <template>
-  <div :class="['mt-16', align === 'center' && 'text-center']">
+  <div id="games" :class="['mt-16', align === 'center' && 'text-center']">
     <div class="game__title">
         <h1 class="capitalize text-6xl text-black font-black text-center">{{$t('our games')}}</h1>
         <p class="lg:line-clamp-3 lg:w-1/2 sm:line-clamp-5 sm:w-full text-center m-auto py-4">{{$t('As a pioneer of mobile app gamification, we take pride in originality and individuality, providing global players with state-of-the-art games that feature splendid storylines, sensational sound effects and magnificent animation that never cease to impress.')}}</p>

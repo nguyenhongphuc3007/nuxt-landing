@@ -7,7 +7,7 @@ defineProps({
 </script>
 
 <template>
-  <div :class="['mt-16', align === 'center' && 'text-center']">
+  <div id="aboutus" :class="['mt-16', align === 'center' && 'text-center']">
     <a-row type="flex" justify="center">
       <a-col :xs="24" :sm="24" :md="7" :lg="7">
         <div class="about__me">
@@ -52,7 +52,7 @@ defineProps({
           <div class="about__detail--icon">
             <i class="iconsax" icon-name="calendar-tick"></i>
           </div>
-          <div class="about__detail--content">
+          <div class="about__detail--content lg:pl-4">
             <h1 class="text-4xl font-bold text-left">{{ $t("24 - Hour") }}</h1>
             <p class="text-sm text-left" style="color: #757575">
               {{
@@ -67,7 +67,7 @@ defineProps({
           <div class="about__detail--icon">
             <i class="iconsax" icon-name="pen-path-2"></i>
           </div>
-          <div class="about__detail--content">
+          <div class="about__detail--content lg:pl-4">
             <h1 class="text-4xl font-bold text-left capitalize">
               {{ $t("design") }}
             </h1>
@@ -84,7 +84,7 @@ defineProps({
           <div class="about__detail--icon">
             <i class="iconsax" icon-name="group"></i>
           </div>
-          <div class="about__detail--content">
+          <div class="about__detail--content lg:pl-4">
             <h1 class="text-4xl font-bold text-left capitalize">
               {{ $t("team") }}
             </h1>
