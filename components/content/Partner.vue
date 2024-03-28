@@ -36,13 +36,13 @@ export default defineComponent({
       slideWidth: "260px"
     },
     images: [
-        {id:1,link:'/_nuxt/assets/img/partner1.png'},
-        {id:2,link:'/_nuxt/assets/img/partner2.png'},
-        {id:3,link:'/_nuxt/assets/img/partner3.png'},
-        {id:4,link:'/_nuxt/assets/img/partner4.png'},
-        {id:5,link:'/_nuxt/assets/img/partner5.png'},
-        {id:6,link:'/_nuxt/assets/img/partner6.png'},
-        {id:7,link:'/_nuxt/assets/img/partner7.png'},
+        {id:1,link:'/partner/partner1.png'},
+        {id:2,link:'/partner/partner2.png'},
+        {id:3,link:'/partner/partner3.png'},
+        {id:4,link:'/partner/partner4.png'},
+        {id:5,link:'/partner/partner5.png'},
+        {id:6,link:'/partner/partner6.png'},
+        {id:7,link:'/partner/partner7.png'},
     ],
     // breakpoints are mobile first
     // any settings not specified will fallback to the carousel settings
