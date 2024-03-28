@@ -5,24 +5,24 @@ defineProps({
   },
 });
 const col1 = [
-  {id:1,link:'/_nuxt/assets/img/content/space.png',title:'E-Space'},
-  {id:2,link:'/_nuxt/assets/img/content/pirates.png',title:'Pirates'},
-  {id:3,link:'/_nuxt/assets/img/content/magictree.png',title:'Magic tree'},
+  {id:1,link:'/content/space.png',title:'E-Space'},
+  {id:2,link:'/content/pirates.png',title:'Pirates'},
+  {id:3,link:'/content/magictree.png',title:'Magic tree'},
 ]
 const col2 = [
-  {id:1,link:'/_nuxt/assets/img/content/kingland.png',title:'Kingland'},
-  {id:2,link:'/_nuxt/assets/img/content/witchparty.png',title:'Witch Party'},
-  {id:3,link:'/_nuxt/assets/img/content/aborigines.png',title:'Abrogines'},
+  {id:1,link:'/content/kingland.png',title:'Kingland'},
+  {id:2,link:'/content/witchparty.png',title:'Witch Party'},
+  {id:3,link:'/content/aborigines.png',title:'Abrogines'},
 ]
 const col3 = [
-  {id:1,link:'/_nuxt/assets/img/content/lastgame.png',title:'The Last Game'},
-  {id:2,link:'/_nuxt/assets/img/content/rocky.png',title:'Rocky'},
-  {id:3,link:'/_nuxt/assets/img/content/cinderella.png',title:'Cinderella'},
+  {id:1,link:'/content/lastgame.png',title:'The Last Game'},
+  {id:2,link:'/content/rocky.png',title:'Rocky'},
+  {id:3,link:'/content/cinderella.png',title:'Cinderella'},
 ]
 const col4 = [
-  {id:1,link:'/_nuxt/assets/img/content/dragon.png',title:'G-Dragon'},
-  {id:2,link:'/_nuxt/assets/img/content/fire.png',title:'Blue Fire'},
-  {id:3,link:'/_nuxt/assets/img/content/egypt.png',title:'Egypt Game'},
+  {id:1,link:'/content/dragon.png',title:'G-Dragon'},
+  {id:2,link:'/content/fire.png',title:'Blue Fire'},
+  {id:3,link:'/content/egypt.png',title:'Egypt Game'},
 ]
 </script>
 
